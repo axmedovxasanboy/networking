@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Product App</title>
+    <link rel="stylesheet" th:href="@{/style/styles.css}">
+</head>
+<body>
+<div class="container">
+    <header>
+        <h1>Product Management</h1>
+        <nav>
+            <a th:href="@{/add-product}">Add Product</a>
+            <a th:href="@{/crm}">CRM</a>
+            <a th:href="@{/erp}">ERP</a>
+            <a th:href="@{/wms}">WMS</a>
+        </nav>
+    </header>
+    <main>
+        <p>Welcome to the Product Management application. Use the navigation links above to manage products and view them by category.</p>
+    </main>
+    <footer>
+        <p>&copy; 2024 Product Management App</p>
+    </footer>
+</div>
+</body>
+</html>
